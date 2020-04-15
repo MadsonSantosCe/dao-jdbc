@@ -42,5 +42,9 @@ public class Program {
 		seller.setName("Martha White");
 		sellerDao.update(seller);
 		System.out.println("Update completed");
+		
+		System.out.println("\nTeste 06: delete da classe SellerDaoJDBC");
+		sellerDao.deleteById(22);
+		System.out.println("Delete completed");
 	}
 }
